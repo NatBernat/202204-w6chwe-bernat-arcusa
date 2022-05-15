@@ -1,11 +1,9 @@
-import { Provider } from "react-redux";
-import TestRenderer from "react-test-renderer";
-import store from "../../redux/store/store";
-import RobotsList from "./RobotsList";
+import { robotsReducer, loadRobotsActionCreator } from "./robotsSlice";
 
-describe("Given a RobotsList component", () => {
-  describe("When it's rendered", () => {
-    test("Then it should match this snapshot", () => {
+describe.skip("Given a project reducer", () => {
+  describe("When it receives a list of robots and a load action", () => {
+    test("Then it should return the received list of projects", () => {
+      const initialState = [];
       const robots = [
         {
           _id: "627e93e63ccb21d8cae171b2",
@@ -26,13 +24,10 @@ describe("Given a RobotsList component", () => {
         },
       ];
 
-      const renderedList = TestRenderer.create(
-        <Provider store={store}>
-          <RobotsList robots={robots} />
-        </Provider>
-      );
+      const loadAction = loadRobotsActionCreator(robots);
+      const newState = robotsReducer(initialState, loadAction);
 
-      expect(renderedList).toMatchSnapshot();
+      expect(newState).toEqual(robots);
     });
   });
 });
