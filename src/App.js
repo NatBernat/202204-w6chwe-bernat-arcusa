@@ -1,7 +1,9 @@
+import Robot from "./components/Robot/Robot";
+
 function App() {
   return (
     <div className="App">
-      <h1>Work in progress</h1>
+      <h1>Robots page</h1>
     </div>
   );
 }
