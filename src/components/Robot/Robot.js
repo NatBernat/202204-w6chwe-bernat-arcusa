@@ -1,8 +1,8 @@
-import { render } from "@testing-library/react";
+import RobotStyled from "./RobotStyled";
 
 const Robot = ({ robot: { name, image, speed, resistance, creation } }) => {
-  render(
-    <>
+  return (
+    <RobotStyled className="robot">
       <h3>{name}</h3>
       <img src={image} alt={name} />
       <ul className="robot__stats">
@@ -10,7 +10,7 @@ const Robot = ({ robot: { name, image, speed, resistance, creation } }) => {
         <li>Resistance: {resistance}</li>
         <li>Creation: {creation}</li>
       </ul>
-    </>
+    </RobotStyled>
   );
 };
 
