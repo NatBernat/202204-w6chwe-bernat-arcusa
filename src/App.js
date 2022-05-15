@@ -1,4 +1,5 @@
-import RobotsList from "./components/Robot/RobotsList/RobotsList";
+import RobotsList from "./components/RobotsList/RobotsList";
+
 const robotsList = [
   {
     _id: "627e93e63ccb21d8cae171b2",
