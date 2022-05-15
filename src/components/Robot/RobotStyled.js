@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const RobotStyled = styled.li`
   width: 250px;
-  height: 500px;
+  height: 450px;
   text-align: center;
   color: white;
   list-style: none;
