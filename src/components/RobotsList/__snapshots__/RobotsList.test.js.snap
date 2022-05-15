@@ -2,61 +2,6 @@
 
 exports[`Given a RobotsList component When it's rendered Then it should match this snapshot 1`] = `
 <div
-  className="sc-gsnTZi kPZuoG"
->
-  <li
-    className="sc-bczRLJ jZEoQP robot"
-  >
-    <h3>
-      Terminator
-    </h3>
-    <img
-      alt="Terminator"
-      src="https://m.media-amazon.com/images/I/51hm4aPEGGL._SY445_.jpg"
-    />
-    <ul
-      className="robot__stats"
-    >
-      <li>
-        Speed: 
-        2
-      </li>
-      <li>
-        Resistance: 
-        8
-      </li>
-      <li>
-        Creation: 
-        1984
-      </li>
-    </ul>
-  </li>
-  <li
-    className="sc-bczRLJ jZEoQP robot"
-  >
-    <h3>
-      Optimus Prime
-    </h3>
-    <img
-      alt="Optimus Prime"
-      src="https://pm1.narvii.com/7617/0e3da39327724c32a5639bae88d64ad9c60dfecer1-752-1131v2_hq.jpg"
-    />
-    <ul
-      className="robot__stats"
-    >
-      <li>
-        Speed: 
-        5
-      </li>
-      <li>
-        Resistance: 
-        7
-      </li>
-      <li>
-        Creation: 
-        1973
-      </li>
-    </ul>
-  </li>
-</div>
+  className="sc-gsnTZi crxZvf"
+/>
 `;
