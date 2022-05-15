@@ -1,6 +1,6 @@
 import RobotStyled from "./RobotStyled";
 
-const Robot = ({ robot: { id, name, image, speed, resistance, creation } }) => {
+const Robot = ({ robot: { name, image, speed, resistance, creation } }) => {
   return (
     <RobotStyled className="robot">
       <h3>{name}</h3>

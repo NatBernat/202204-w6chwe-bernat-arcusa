@@ -9,7 +9,6 @@ const RobotStyled = styled.li`
   list-style: none;
   padding: 20px;
   background-color: darkslateblue;
-  border-radius: 20px;
   box-shadow: 0 5px 10px 0 black;
   h3 {
     margin: 0 0 15px 0;

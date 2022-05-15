@@ -5,7 +5,7 @@ const RobotsListStyled = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 `;
 
 export default RobotsListStyled;
