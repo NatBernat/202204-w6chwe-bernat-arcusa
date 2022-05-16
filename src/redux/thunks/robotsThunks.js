@@ -4,6 +4,9 @@ import { loadRobotsActionCreator } from "../features/robotsSlice";
 export const loadRobotsThunk = () => async (dispatch) => {
   const {
     data: { robots },
-  } = await axios.get(process.env.REACT_APP_API_PORT);
+  } = await axios.get(process.env.REACT_APP_API_PORT, {
+    headers: { Authorization: `Bearer ${process.env.REACT_APP_API_TOKEN}` },
+  });
+
   dispatch(loadRobotsActionCreator(robots));
 };
