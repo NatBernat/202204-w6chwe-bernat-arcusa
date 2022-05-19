@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Given a RobotsList component When it's rendered Then it should match this snapshot 1`] = `
-<div
-  className="sc-gsnTZi crxZvf"
-/>
+Array [
+  <h2>
+    Bienvenido 
+  </h2>,
+  <div
+    className="sc-gsnTZi crxZvf"
+  />,
+]
 `;

@@ -10,7 +10,6 @@ const loginThunk = (userData) => async (dispatch) => {
   const tokenDecoded = jwtDecode(data.token);
 
   localStorage.setItem("token", data.token);
-
   dispatch(logInActionCreator(tokenDecoded));
 };
 
